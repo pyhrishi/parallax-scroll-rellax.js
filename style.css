@@ -81,8 +81,8 @@ ul {
 .section-top .content {
   position: absolute;
   top: 100px;
-  right: 20px;
-  width: 55%;
+  right: 70px;
+  width: 50%;
 }
 
 /* Section Stream */
@@ -97,10 +97,10 @@ ul {
 }
 
 .section-stream .play {
-  width: 27%;
+  width: 25%;
   position: absolute;
   top: 100px;
-  left: 50px;
+  left: 80px;
 }
 
 .section-stream .content {
@@ -124,6 +124,10 @@ ul {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 30px;
   text-align: center;
+}
+
+.section-grid i {
+  color: var(--secondary--color);
 }
 
 .section-grid p {
